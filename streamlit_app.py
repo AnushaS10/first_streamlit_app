@@ -11,6 +11,6 @@ import pandas
 
 # streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
-my_fruit_list=pandas.read_excel('C:\Users\anusha.s31\Documents\Learnings\Snowflake\Fruits_streamlit.xlsx',index_col=0)
+my_fruit_list=pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 streamlit.dataframe(my_fruit_list)
 
